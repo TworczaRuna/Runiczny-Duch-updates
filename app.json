@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Runiczny Duch Klient",
+    "slug": "runiczny-duch-klient",
+    "scheme": "runicznyduchklient",
+    "version": "3.3.3",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#07111d",
+    "android": {
+      "package": "de.runicznyduch.client",
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE",
+        "ACCESS_WIFI_STATE"
+      ]
+    },
+    "plugins": [
+      "expo-secure-store",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ]
+    ],
+    "icon": "./assets/ikona-klient.png"
+  }
+}

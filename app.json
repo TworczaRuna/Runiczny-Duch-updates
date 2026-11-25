@@ -13,7 +13,8 @@
         "INTERNET",
         "ACCESS_NETWORK_STATE",
         "ACCESS_WIFI_STATE"
-      ]
+      ],
+      "versionCode": 2
     },
     "plugins": [
       "expo-secure-store",
@@ -26,6 +27,11 @@
         }
       ]
     ],
-    "icon": "./assets/ikona-klient.png"
+    "icon": "./assets/ikona-klient.png",
+    "extra": {
+      "eas": {
+        "projectId": "750c682c-4934-4765-a9f9-0fd61f629c97"
+      }
+    }
   }
 }
